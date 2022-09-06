@@ -345,7 +345,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   m_LocalRotation: {x: 0.061812095, y: -0, z: -0, w: 0.9980878}
-  m_LocalPosition: {x: 0, y: 6.9, z: -18.800003}
+  m_LocalPosition: {x: 0, y: 1.49, z: -18.800003}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1151096579}
@@ -606,118 +606,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1151096579}
     m_Modifications:
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_Id
-      value: 832639c2-8b07-4077-99a3-b6af14b8ca95
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_Name
-      value: Movement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.size
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Id
-      value: ebc8b68c-6492-459c-8d0c-2a4d16059028
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Id
-      value: aa0dce9c-ff16-4449-97a2-001052ef362b
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Id
-      value: cea710b7-97e2-4660-b92e-dfe1d5148017
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Id
-      value: a885dec5-5c0d-4bc9-b332-bd94dddd8306
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Id
-      value: 6d63a33f-39a8-4b3c-b367-47c4e4c0d38f
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Name
-      value: 2D Vector
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Path
-      value: 2DVector
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Name
-      value: up
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Path
-      value: <Keyboard>/w
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Name
-      value: down
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Path
-      value: <Keyboard>/s
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Name
-      value: left
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Path
-      value: <Keyboard>/a
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Name
-      value: right
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Path
-      value: <Keyboard>/d
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Flags
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Flags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Flags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Flags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Flags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Movement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[1].m_Action
-      value: Movement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[2].m_Action
-      value: Movement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[3].m_Action
-      value: Movement
-      objectReference: {fileID: 0}
-    - target: {fileID: 7361635114587940186, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
-      propertyPath: movement.m_SingletonActionBindings.Array.data[4].m_Action
-      value: Movement
-      objectReference: {fileID: 0}
     - target: {fileID: 8679315584226929258, guid: 061997829f5cea54b8d0bc40394d3682, type: 3}
       propertyPath: m_Name
       value: Player Ship

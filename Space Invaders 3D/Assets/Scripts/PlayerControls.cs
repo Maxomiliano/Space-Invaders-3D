@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,13 +7,22 @@ using UnityEngine;
 public class PlayerControls : MonoBehaviour
 {
 
+    [Header("General Setup Settings")]
+    [Tooltip("How fast ship moves up and down based upon player input")] 
     [SerializeField] float playerSpeed = 2f;
-    [SerializeField] float xRange = 10f;
-    [SerializeField] float yRange = 7f;
+    [SerializeField][Tooltip("How fast player moves horizontally")] float xRange = 10f;
+    [SerializeField][Tooltip("How fast plater movers vertically")] float yRange = 7f;
+    
+    [Header("Laser gun array")]
+    [Tooltip("Add all player lasers here")]
+    [SerializeField] GameObject[] lasers;
 
+    [Header("Screen position based tuning")]
     [SerializeField] float positionPitchFactor = -2f;
-    [SerializeField] float controlPitchFactor = -10f;
     [SerializeField] float positionYawFactor = 2.5f;
+
+    [Header("Player input based tuning")]
+    [SerializeField] float controlPitchFactor = -10f;   
     [SerializeField] float controlRollFactor = -20f;
 
     float xThrow;
@@ -24,6 +34,7 @@ public class PlayerControls : MonoBehaviour
     {
         ProcessTranslation();
         ProcessRotation();
+        ProcessFiring();
     }
 
     void ProcessRotation()
@@ -60,4 +71,30 @@ public class PlayerControls : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedXpos, clampedYpos, transform.localPosition.z);
     }
+
+
+    void ProcessFiring()
+    {
+        
+        if (Input.GetButton("Fire1"))
+        {
+            SetLasersActive(true);
+        }
+        else
+        {
+            SetLasersActive(false);
+        }
+        
+    }
+
+    void SetLasersActive(bool isActive)
+    {
+        //for each of the lasers that we have, turn them on (activate them)
+        foreach (GameObject laser in lasers)
+        {
+            var emissionModule = laser.GetComponent<ParticleSystem>().emission;
+            emissionModule.enabled = isActive;
+        }
+    }
+                
 }
